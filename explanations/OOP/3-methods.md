@@ -15,12 +15,11 @@ class Tron:
         cls.program = program
 
 coen = Tron("Coen", 17)
-```python
 Tron.what_program("software")
 print(coen.program)
 ```
 we can also use class methods as an alterative constructor.
-
+```python
 class Tron:
   
     program = "mechatronics"
