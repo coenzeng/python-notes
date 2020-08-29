@@ -18,7 +18,7 @@ coen = Tron("Coen", 17)
 Tron.what_program("software")
 print(coen.program)
 ```
-we can also use class methods as an alterative constructor.
+We can also use class methods as an alterative constructor.
 ```python
 class Tron:
   
@@ -45,7 +45,7 @@ print(new_student.age)
 ```
 In this example, coen is a string that has it's name seperated with a hypen. So I used the `from_string` class method to split the name and age. This way we can access them seperately.
 
-#Static Methods
+# Static Methods
 
 Whereas instance methods pass in an instance and class methods pass in a class as the first variable, static classes don't pass in anything first automatically. They are used when you don't need access to any instances or the class. That is, it's a function that is independant of other variables, but still placed inside the class because it's related.
 ```python
